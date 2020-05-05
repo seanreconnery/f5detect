@@ -4,8 +4,11 @@ Allows a user to run StegDetect's F5 deep analysis function thru a web interface
 On your server, make sure StegDetect is installed.
 
 git clone https://github.com/abeluck/stegdetect.git
+
 linux32 ./configure
+
 linux32 make
+
 
 Then you can:  pip install flask
 
